@@ -1,13 +1,27 @@
 # simple-jekyll-template
+
 A barebones website template for students to fork while learning how to build a GitHub website. 
 
-# important files 
+# your minimal site:
 
-  |_ index.md 
-  |_ _config.yml
+site
+├── index.md 
+├── config.yml
+├── \_layouts folder
+│   └── default.html
+│   └── page.html 
+└── \_includes folder 
+    ├── head.html
+    ├── header.html
+    ├── navbar.html
+    └── footer.htm.
   
   
-  
+## index.md
+
+Landing page. 
+
+
 ## config file
 
 Basic example from [GitLab](https://gitlab.com/pages/jekyll/blob/master/_config.yml):
