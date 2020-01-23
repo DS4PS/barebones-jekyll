@@ -8,10 +8,10 @@ A barebones website template for students to fork while learning how to build a 
 site  
 ├── index.md   
 ├── config.yml  
-├── \_layouts folder  
+├── _layouts folder  
 │   └── default.html  
 │   └── page.html   
-└── \_includes folder   
+└── _includes folder   
     ├── head.html  
     ├── header.html  
     ├── navbar.html  
