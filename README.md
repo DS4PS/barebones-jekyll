@@ -8,6 +8,9 @@ A barebones website template for students to fork while learning how to build a 
 site  
 ├── index.md   
 ├── config.yml  
+├── assets folder  
+│   └── images    
+│   └── CSS files  
 ├── _layouts folder  
 │   └── default.html  
 │   └── page.html   
