@@ -1,4 +1,4 @@
-# _layouts
+# layouts
 
 Page templates for your site. 
 
