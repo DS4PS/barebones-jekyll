@@ -4,6 +4,7 @@ A barebones website template for students to fork while learning how to build a 
 
 # your minimal site:
 
+```
 site  
 ├── index.md   
 ├── config.yml  
@@ -15,7 +16,7 @@ site
     ├── header.html  
     ├── navbar.html  
     └── footer.html  
-  
+``` 
   
 ## index.md
 
