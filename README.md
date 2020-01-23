@@ -4,17 +4,17 @@ A barebones website template for students to fork while learning how to build a 
 
 # your minimal site:
 
-site
-├── index.md 
-├── config.yml
-├── \_layouts folder
-│   └── default.html
-│   └── page.html 
-└── \_includes folder 
-    ├── head.html
-    ├── header.html
-    ├── navbar.html
-    └── footer.htm.
+site  
+├── index.md   
+├── config.yml  
+├── \_layouts folder  
+│   └── default.html  
+│   └── page.html   
+└── \_includes folder   
+    ├── head.html  
+    ├── header.html  
+    ├── navbar.html  
+    └── footer.html  
   
   
 ## index.md
