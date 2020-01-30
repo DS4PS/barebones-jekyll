@@ -5,6 +5,9 @@ title: My First Website
 
 <div id="home">
 
-Hello world. 
+# hello world
+
+![](assets/img/boy-meets-world.png)
+
 
 </div>
