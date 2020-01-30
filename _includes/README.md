@@ -1,22 +1,27 @@
 # The _includes Folder
 
-## head
-
-### external assets 
-
-### css
-
-### SEO 
+## The *head.html* File
 
 
 
-## header 
+* page and browser settings 
+* importing external assets 
+* css
+* SEO 
 
-### navbar 
+
+
+## The *header.html* File 
+
+* navbar 
 
 
 
-## body 
+## body
 
-### footer 
+
+
+## The *footer.html* File
+
+ 
 
