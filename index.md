@@ -5,6 +5,6 @@ title: My First Website
 
 <div id="home">
 
-{{ content }}
+Hello world. 
 
 </div>
