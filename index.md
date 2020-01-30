@@ -1,13 +1,12 @@
 ---
 layout: default
-title: My First Website
+title: My Home Page
 ---
 
-<div id="home">
 
 # hello world
 
-![](assets/img/boy-meets-world.png)
+![](../assets/img/boy-meets-world.png)
 
 
-</div>
+
