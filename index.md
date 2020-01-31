@@ -8,5 +8,5 @@ title: My Home Page
 
 ![](/assets/img/boy-meets-world.png)  
 
-
+![](boy-meets-world.png) 
 
