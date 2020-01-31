@@ -8,7 +8,6 @@ title: 'My Home Page'
 
 ![]({{site.url}}/assets/img/hey-world.png)  
 
-![second](assets/img/hey-world.png)  
 
 ## [Lorem Ipsum](https://www.lipsum.com/)
 
