@@ -2,6 +2,13 @@
 
 A barebones website template for students to fork while learning how to build a GitHub website. 
 
+
+## Will teach you how to use themes like these:
+
+* [contrast](https://github.com/niklasbuschmann/contrast)
+* [polar bear theme] (https://github.com/diezcami/polar-bear-theme)
+* [the plain](https://heiswayi.github.io/the-plain/)
+
 # your minimal site:
 
 ```
