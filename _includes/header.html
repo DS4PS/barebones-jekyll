@@ -1,10 +1,25 @@
 <header>
   
 <div class="navbar">
-  <p style="uppercase">{{ site.title }}</p>
-  <i class="fa fa-home fa-2x">
-  <a class="active" href="#home"></i>Home</a>
+  <a id="site-title" href="#home">{{ site.title }}</a>
+  <i class="fa fa-home fa-1.5x"></i>
+  <a class="active" href="#home">Home</a>
   <a href="#about">About</a>
 </div>
   
 </header>
+
+<!-- margin: top right bottom left -->
+
+<style>
+  
+#site-title {
+  font-size: 130%;
+  text-transform: uppercase;
+}
+.navbar a {
+  color: darkred;
+  margin: 0 10px 0 0
+}
+  
+</style>
