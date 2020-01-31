@@ -7,7 +7,7 @@ A barebones website template for students to fork while learning how to build a 
 
 * [contrast](https://github.com/niklasbuschmann/contrast)
 * [polar bear theme] (https://github.com/diezcami/polar-bear-theme)
-* [the plain](https://heiswayi.github.io/the-plain/)
+* [lanyon](http://lanyon.getpoole.com/)
 
 # your minimal site:
 
