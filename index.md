@@ -1,12 +1,14 @@
 ---
-layout: default
-title: My Home Page
+layout: home
+title: 'My Home Page'
 ---
 
 
-# hello world
+# hello world  
 
 ![](/assets/img/hey-world.png)  
 
-![](boy-meets-world.png) 
+Some text 
+
+
 
