@@ -6,20 +6,20 @@
 
 
 
-
-    <body>                                <!-- START OF CONTENT  -->
+                                          <!-- START OF CONTENT  -->
+    <body>                                
         
-
-       {% include header.html %}          <!-- top slice of bread  -->
+                                          <!-- top slice of bread  -->
+       {% include header.html %}        
+     
+                                          <!-- sandwich meat  -->
+       {{ content }}                      
         
-
-       {{ content }}                      <!-- sandwich meat  -->
+                                          <!-- bottom slice of bread  -->
+       {% include footer.html %}          
         
-
-       {% include footer.html %}          <!-- bottom slice of bread  -->
-        
-        
-    </body>                               <!-- END OF CONTENT  -->
+                                          <!-- END OF CONTENT  --> 
+    </body>                               
 
  
     
