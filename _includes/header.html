@@ -2,12 +2,18 @@
   
 <div class="navbar">
   <a id="site-title" href="#home">{{ site.title }}</a>
-  <i class="fa fa-home fa-1.5x"></i>
   <a class="active" href="#home">Home</a>
   <a href="#about">About</a>
+  <a href="https://github.com/{{ site.github.username }}/{{ site.github.reponame }}/edit/master/{{page.path}}" target = "_blank"> 
+  <i class="fab fa-github 2x" id="github_icon"></i></a>
+
 </div>
   
 </header>
+
+
+
+
 
 <!-- margin: top right bottom left -->
 
@@ -15,8 +21,8 @@
   
 header { 
   background-color: black; 
-  height: 200px;
-  padding: 8px 16px;
+  height: 100px;
+  padding: 20px 16px;
   font-family: Verdana,sans-serif;
   font-size: 15px;
   line-height: 1.5;
