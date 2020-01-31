@@ -1,0 +1,8 @@
+<!-- create a list of all available images -->
+<div class="static_images">
+  {% for file in site.static_files %}
+    {% if file.image == true %}
+      {{ file.path }}
+    {% endif %}
+  {% endfor %}
+</div>
