@@ -50,6 +50,9 @@ The default page will typically look something like this:
 
 ## Additional Templates
 
+
+### Templates
+
 The purpose of each website is different. GitHub pages are typically used as (1) blogs or (2) documentation. They will often have a couple of other templates in the _layouts folder. 
 
 Let's consider the case of a plain webpage or a blog. Jykyll utilizes inheritance to make new page templates easy to build because we don't have to start from scratch. We can leverage what already exists.
@@ -110,6 +113,11 @@ This is a bit recursive because this page also contains a {{content}} tag. The e
 ```
 
 Note that we did not need to include the `<HTML>` document type declaration, the head, header, or footer on the **page** template because it is already included on the **default** template. 
+
+### Page element recursion
+
+![](https://jekyllrb.com/img/jekylllayoutconcept.png)
+
 
 **INCLUDES**
 
