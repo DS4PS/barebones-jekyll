@@ -31,22 +31,9 @@ layout: format-text
       {% endfor %}
       
     </ul>
-
-    <h4>  Strengths  </h4>
-    <ul>
-      
-      {% for item in page.gosling.strengths %}
-        <li>{{item.gosling.strengths}}</li>
-      {% endfor %}
-      
-    </ul>    
     
-  <td>
-<tr>  
+    <br>
 
-<tr>
-  <td>
-  
     <h4>  Weaknessess  </h4>
     <ul>
       
@@ -54,8 +41,25 @@ layout: format-text
          <li>{{item.reynolds.weaknesses}}</li>
       {% endfor %}
       
-    </ul>
+    </ul>  
+    
+  <td>
+<tr>  
 
+<tr>
+  <td>
+  
+    <h4>  Strengths  </h4>
+    <ul>
+      
+      {% for item in page.gosling.strengths %}
+        <li>{{item.gosling.strengths}}</li>
+      {% endfor %}
+      
+    </ul>
+    
+    <br>
+    
     <h4>  Weaknessess  </h4>
     <ul>
       
@@ -67,6 +71,5 @@ layout: format-text
 
   <td>
 <tr> 
-
 
 </table>
