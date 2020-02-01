@@ -24,7 +24,7 @@ gosling:
 
 
 
-![]({{site.url}}/assets/img/hey-world.png)  
+![]({{site.url}}/assets/img/ryan-v-ryan.png)  
 
 
 ## Lorem Ipsum
