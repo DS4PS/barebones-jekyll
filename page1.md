@@ -1,6 +1,6 @@
 ---
 layout: format-text
-title: 'My Page'
+title: 'Nicer Layout'
 ---
 
 
