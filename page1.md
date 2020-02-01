@@ -36,13 +36,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ###  text between the div tags
 ###
 
-&lt;div class="pretty-text">
+     &lt;div class="pretty-text">
 
-&lt;h1>  &lbrace;&lbrace; page.title }}  </h1>
+       &lt;h1>  &lbrace;&lbrace; page.title }}  </h1>
   
-&lbrace;&lbrace; content }}
+       &lbrace;&lbrace; content }}
   
-&lt;/div>
+     &lt;/div>
 
 
 ###
