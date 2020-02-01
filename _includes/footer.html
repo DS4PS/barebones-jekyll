@@ -1,12 +1,16 @@
 <footer>
   <p>Contact information: <a href="mailto:{{ site.email }}">  {{ site.email }}  </a></p>
   
+  <div class="centered-list">
   <h3> Files in _includes Folder </h3>
+    
   <ul>
     <li>  <a href="https://github.com/DS4PS/barebones-jekyll/blob/master/_includes/head.html">    head.html    </a></li>
     <li>  <a href="https://github.com/DS4PS/barebones-jekyll/blob/master/_includes/header.html">  header.html  </a></li>
     <li>  <a href="https://github.com/DS4PS/barebones-jekyll/blob/master/_includes/footer.html">  footer.html  </a></li>
   </ul>
+    
+  </div>
 
   
 <blockquote>
@@ -63,12 +67,12 @@ footer a {
   color: orange;
 }
   
-footer ul {
-  list-style: inside;
-  text-align:left;
+.centered-list ul {
+	display:inline-block;
+	text-align:left;
 }
 
-  pre{
+pre{
   font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
   margin-bottom: 10px;
   padding: 5px;
@@ -78,3 +82,4 @@ footer ul {
 }
   
 </style>
+
