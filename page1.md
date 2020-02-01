@@ -23,7 +23,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 &lt;div class="pretty-text">
 
-&lt;h1>{{ page.title }}</h1>
+&lt;h1>  &lbrace;&lbrace; page.title }}  </h1>
   
 &lbrace;&lbrace; content }}
   
