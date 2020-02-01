@@ -28,8 +28,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ###  
 ###  page.html layout
 ###  
-###  - adds title 
-###  - no page formatting
+###  - adds title to default layout
+###  - no special page formatting
 ###  
 
 ---
