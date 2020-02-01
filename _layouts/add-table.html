@@ -109,18 +109,20 @@ layout: format-text
       ###
       ### default.html
       ###
-      ### include name.html adds 
+      ### include statements add page 
       ### components from _includes folder
       ###
       
       &lt;!DOCTYPE html>
       &lt;html lang="en">
       &lbrace;% include head.html %}
-      &lt;body>                                
-      &lbrace;% include header.html %}        
-      &lbrace;&lbrace; content }}                      
-      &lbrace;% include footer.html %}           
-      &lt;/body>                               
+      
+        &lt;body>                                
+          &lbrace;% include header.html %}        
+          &lbrace;&lbrace; content }}                      
+          &lbrace;% include footer.html %}           
+        &lt;/body>  
+        
       &lt;/html>     
       
       
