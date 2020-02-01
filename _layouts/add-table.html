@@ -110,76 +110,78 @@ gosling:
 
 # LIQUID TAG TABLE IN LAYOUT
 
-<h2> Ryan vs Ryan </h2>
+# LIQUID TAG TABLE IN LAYOUT
 
-<table id="ryan-v-ryan">
+&lt;h2> Ryan vs Ryan &lt;/h2>
 
-<thead>
-  <tr>
-    <th>  <h3>  Ryan Reynolds  </h3>  </th>
-    <th>  <h3>  Ryan Gosling  </h3>  </th>
-  </tr>
-</thead>
+&lt;table id="ryan-v-ryan">
 
-<tbody>
+&lt;thead>
+  &lt;tr>
+    &lt;th>  &lt;h3>  Ryan Reynolds  &lt;/h3>  &lt;/th>
+    &lt;th>  &lt;h3>  Ryan Gosling  &lt;/h3>  &lt;/th>
+  &lt;/tr>
+&lt;/thead>
 
-<tr>
+&lt;tbody>
+
+&lt;tr>
   
   
-  <td>
+  &lt;td>
   
     
-    <h4>  Strengths  </h4>
-    <ul>
+    &lt;h4>  Strengths  &lt;/h4>
+    &lt;ul>
       
       {% for item in page.reynolds.strengths %}
-         <li>{{ item }}</li>
+         &lt;li>{{ item }}&lt;/li>
       {% endfor %}
       
-    </ul>
+    &lt;/ul>
     
-    <br>
+    &lt;br>
 
-    <h4>  Weaknessess  </h4>
-    <ul>
+    &lt;h4>  Weaknessess  &lt;/h4>
+    &lt;ul>
       
       {% for item in page.reynolds.weaknesses %}
-         <li>{{ item }}</li>
+         &lt;li>{{ item }}&lt;/li>
       {% endfor %}
       
-    </ul>  
+    &lt;/ul>  
     
     
-  </td>
+  &lt;/td>
   
 
 
-  <td>
+  &lt;td>
   
-    <h4>  Strengths  </h4>
-    <ul>
+    &lt;h4>  Strengths  &lt;/h4>
+    &lt;ul>
       
       {% for item in page.gosling.strengths %}
-        <li>{{ item }}</li>
+        &lt;li>{{ item }}&lt;/li>
       {% endfor %}
       
-    </ul>
+    &lt;/ul>
     
-    <br>
+    &lt;br>
     
-    <h4>  Weaknessess  </h4>
-    <ul>
+    &lt;h4>  Weaknessess  &lt;/h4>
+    &lt;ul>
       
       {% for item in page.gosling.weaknesses %}
-         <li>{{ item }}</li>
+         &lt;li>{{ item }}&lt;/li>
       {% endfor %}
       
-    </ul>
+    &lt;/ul>
 
-  </td>
-</tr> 
+  &lt;/td>
+&lt;/tr> 
 
-</table>
+&lt;/table>
 
 </code>
 </pre>
@@ -193,9 +195,8 @@ gosling:
   width: auto;
   padding: 5px;
   background-color: #eee;
-  width: 650px!ie7;
+  width: 750px!ie7;
   padding-bottom: 20px!ie7;
-  max-height: 600px;
 }
 </style>
 
