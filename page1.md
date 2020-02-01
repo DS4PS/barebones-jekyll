@@ -1,5 +1,5 @@
 ---
-layout: format-text
+layout: nice-text
 title: 'Nice Layout'
 ---
 
@@ -14,11 +14,9 @@ title: 'Nice Layout'
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
-
+### Nice-Text Page Layout:  [LINK](https://github.com/DS4PS/barebones-jekyll/blob/master/_layouts/nice-text.html)
 <br>
-
 <hr>
-
 <br>
 
 
@@ -32,7 +30,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
           ###  YAML HEADER FOR PAGE
           ###  
           ###  ---
-          ###  layout: format-text
+          ###  layout: nice-text
           ###  title: 'Nice Layout'
           ###  ---
           ###
