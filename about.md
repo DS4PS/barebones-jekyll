@@ -41,7 +41,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
     &lt;h1> &lbrace;&lbrace; page.title }} &lt;/h1>
 
-    &lbrace;&lbrace; content }}
+            &lbrace;&lbrace; content }}
 
 
 </code>
