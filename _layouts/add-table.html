@@ -1,5 +1,5 @@
 ---
-layout: nice-text
+layout: format-text
 ---
   
 {{ content }}
@@ -9,12 +9,12 @@ layout: nice-text
 
 <h2> Ryan vs Ryan </h2>
 
-<table id="ryan-v-ryan" cellspacing="10">
+<table id="ryan-v-ryan">
 
 <thead>
   <tr>
-    <th>  <h3>Ryan Reynolds</h3>  </th>
-    <th>  <h3>Ryan Goslings</h3>  </th>
+    <th>  <h3>  Ryan Reynolds  </h3>  </th>
+    <th>  <h3>  Ryan Gosling  </h3>  </th>
   </tr>
 </thead>
 
@@ -23,34 +23,46 @@ layout: nice-text
 <tr>
   <td>
   
-    <h4>Strengths</h4>
+    <h4>  Strengths  </h4>
     <ul>
+      
       {% for item in page.reynolds.strengths %}
-      <li>{{item.reynolds.strengths}}</li>
+         <li>{{item.reynolds.strengths}}</li>
+      {% endfor %}
+      
     </ul>
 
-    <h4>Weaknessess</h4>
+    <h4>  Strengths  </h4>
     <ul>
-      {% for item in page.reynolds.weaknesses %}
-      <li>{{item.reynolds.weaknesses}}</li>
-    </ul>
-
+      
+      {% for item in page.gosling.strengths %}
+        <li>{{item.gosling.strengths}}</li>
+      {% endfor %}
+      
+    </ul>    
+    
   <td>
 <tr>  
 
 <tr>
   <td>
   
-    <h4>Strengths</h4>
+    <h4>  Weaknessess  </h4>
     <ul>
-      {% for item in page.gosling.strengths %}
-      <li>{{item.gosling.strengths}}</li>
+      
+      {% for item in page.reynolds.weaknesses %}
+         <li>{{item.reynolds.weaknesses}}</li>
+      {% endfor %}
+      
     </ul>
 
-    <h4>Weaknessess</h4>
+    <h4>  Weaknessess  </h4>
     <ul>
+      
       {% for item in page.gosling.weaknesses %}
-      <li>{{item.gosling.weaknesses}}</li>
+         <li>{{item.gosling.weaknesses}}</li>
+      {% endfor %}
+      
     </ul>
 
   <td>
