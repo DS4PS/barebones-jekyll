@@ -115,12 +115,23 @@ layout: format-text
       
       &lt;!DOCTYPE html>
       &lt;html lang="en">
-      &lbrace;% include head.html %}
+      &lt;head>
       
         &lt;body>                                
-          &lbrace;% include header.html %}        
-          &lbrace;&lbrace; content }}                      
-          &lbrace;% include footer.html %}           
+          &lt;header>   
+          
+          ###
+          ###  &lbrace;&lbrace;content}}
+          ###  is replaced by
+          ###  whatever content
+          ###  is on the page that
+          ###  uses the default.html 
+          ###  template 
+          ###
+          
+          &lbrace;&lbrace; content }}     
+          
+          &lt;footer>           
         &lt;/body>  
         
       &lt;/html>     
