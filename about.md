@@ -13,32 +13,32 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <pre>
 <code>
 
-###
-###  YAML HEADER FOR PAGE
-###  
-###  ---
-###  layout: page
-###  title: About the Site
-###  ---
-###
+    ###
+    ###  YAML HEADER FOR PAGE
+    ###  
+    ###  ---
+    ###  layout: page
+    ###  title: About the Site
+    ###  ---
+    ###
 
 
 
 
-###  
-###  page.html layout
-###  
-###  - adds title to default layout
-###  - no special page formatting
-###  
+    ###  
+    ###  page.html layout
+    ###  
+    ###  - adds title to default layout
+    ###  - no special page formatting
+    ###  
 
----
-layout: default
----
+    ---
+    layout: default
+    ---
 
-&lt;h1> &lbrace;&lbrace; page.title }} &lt;/h1>
+    &lt;h1> &lbrace;&lbrace; page.title }} &lt;/h1>
 
-&lbrace;&lbrace; content }}
+    &lbrace;&lbrace; content }}
 
 
 </code>
