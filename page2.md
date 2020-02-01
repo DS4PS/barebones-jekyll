@@ -1,6 +1,6 @@
 ---
 layout: add-table
-title: 'My Page'
+title: 'amiright?'
 reynolds:
   strengths:
   - good father
