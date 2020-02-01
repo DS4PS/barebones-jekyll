@@ -83,105 +83,80 @@ layout: format-text
 <pre>
 <code>
 
-# YAML HEADER
+    # YAML HEADER
 
----
-layout: add-table
-title: 'My Page'
-reynolds:
-  strengths:
-  - good father
-  - funny
-  - dated alanis morissette
-  weaknesses: 
-  - singing
-  - green lantern movie
-  - tennis backhand 
-gosling:
-  strengths: 
-  - builds houses
-  - is a real boy
-  - never dated alanis morissette
-  weaknesses: 
-  - micky mouse club
-  - cries a lot
-  - not ryan reynolds
----
+    ---
+    layout: add-table
+    title: 'My Page'
+    reynolds:
+      strengths:
+      - good father
+      - funny
+      - dated alanis morissette
+      weaknesses: 
+      - singing
+      - green lantern movie
+      - tennis backhand 
+    gosling:
+      strengths: 
+      - builds houses
+      - is a real boy
+      - never dated alanis morissette
+      weaknesses: 
+      - micky mouse club
+      - cries a lot
+      - not ryan reynolds
+    ---
 
-# LIQUID TAG TABLE IN LAYOUT
+    # LIQUID TAG TABLE IN LAYOUT
 
-# LIQUID TAG TABLE IN LAYOUT
+    # LIQUID TAG TABLE IN LAYOUT
 
-&lt;h2> Ryan vs Ryan &lt;/h2>
+    &lt;h2> Ryan vs Ryan &lt;/h2>
 
-&lt;table id="ryan-v-ryan">
+    &lt;table id="ryan-v-ryan">
 
-&lt;thead>
-  &lt;tr>
-    &lt;th>  &lt;h3>  Ryan Reynolds  &lt;/h3>  &lt;/th>
-    &lt;th>  &lt;h3>  Ryan Gosling  &lt;/h3>  &lt;/th>
-  &lt;/tr>
-&lt;/thead>
+    &lt;thead>
+      &lt;tr>
+        &lt;th>  &lt;h3>  Ryan Reynolds  &lt;/h3>  &lt;/th>
+        &lt;th>  &lt;h3>  Ryan Gosling  &lt;/h3>  &lt;/th>
+      &lt;/tr>
+    &lt;/thead>
 
-&lt;tbody>
-
-&lt;tr>
-  
-  
-  &lt;td>
-  
-    
-    &lt;h4>  Strengths  &lt;/h4>
-    &lt;ul>
-      
-      {% for item in page.reynolds.strengths %}
-         &lt;li>{{ item }}&lt;/li>
-      {% endfor %}
-      
-    &lt;/ul>
-    
-    &lt;br>
-
-    &lt;h4>  Weaknessess  &lt;/h4>
-    &lt;ul>
-      
-      {% for item in page.reynolds.weaknesses %}
-         &lt;li>{{ item }}&lt;/li>
-      {% endfor %}
-      
-    &lt;/ul>  
-    
-    
-  &lt;/td>
-  
-
-
-  &lt;td>
-  
-    &lt;h4>  Strengths  &lt;/h4>
-    &lt;ul>
-      
-      {% for item in page.gosling.strengths %}
-        &lt;li>{{ item }}&lt;/li>
-      {% endfor %}
-      
-    &lt;/ul>
-    
-    &lt;br>
-    
-    &lt;h4>  Weaknessess  &lt;/h4>
-    &lt;ul>
-      
-      {% for item in page.gosling.weaknesses %}
-         &lt;li>{{ item }}&lt;/li>
-      {% endfor %}
-      
-    &lt;/ul>
-
-  &lt;/td>
-&lt;/tr> 
-
-&lt;/table>
+    &lt;tbody>
+    &lt;tr>
+      &lt;td>
+        &lt;h4>  Strengths  &lt;/h4>
+        &lt;ul>
+          {% for item in page.reynolds.strengths %}
+             &lt;li>{{ item }}&lt;/li>
+          {% endfor %}
+        &lt;/ul>
+        &lt;br>
+        &lt;h4>  Weaknessess  &lt;/h4>
+        &lt;ul>
+          {% for item in page.reynolds.weaknesses %}
+             &lt;li>{{ item }}&lt;/li>
+          {% endfor %}
+        &lt;/ul>  
+      &lt;/td>
+      &lt;td>
+        &lt;h4>  Strengths  &lt;/h4>
+        &lt;ul>
+          {% for item in page.gosling.strengths %}
+            &lt;li>{{ item }}&lt;/li>
+          {% endfor %}
+        &lt;/ul>
+        &lt;br>
+        &lt;h4>  Weaknessess  &lt;/h4>
+        &lt;ul>
+          {% for item in page.gosling.weaknesses %}
+             &lt;li>{{ item }}&lt;/li>
+          {% endfor %}
+        &lt;/ul>
+      &lt;/td>
+    &lt;/tr> 
+    &lt;/table>
 
 </code>
 </pre>
