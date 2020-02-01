@@ -4,21 +4,21 @@ title: 'My Page'
 reynolds:
   strengths:
   - good father
-  - nice wife
-  - super hero
+  - funny
+  - dated alanis morissette
   weaknesses: 
   - singing
   - green lantern movie
   - tennis backhand 
 gosling:
   strengths: 
+  - builds houses
   - is a real boy
-  - builds houses 
-  - plays in a band
-  weaknesses: 
-  - micky mouse club trauma 
-  - tennis forehand
   - never dated alanis morissette
+  weaknesses: 
+  - micky mouse club
+  - cries a lot
+  - not ryan reynolds
 ---
 
 
