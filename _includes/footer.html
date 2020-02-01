@@ -7,7 +7,39 @@
     <li>  <a href="https://github.com/DS4PS/barebones-jekyll/blob/master/_includes/header.html">  header.html  </a></li>
     <li>  <a href="https://github.com/DS4PS/barebones-jekyll/blob/master/_includes/footer.html">  footer.html  </a></li>
   </ul>
+
+  
+<blockquote>
+<pre>
+<code>
+
+      ###
+      ###  default.html layout
+      ###
+      
+      &lt;html>
+      &lbrace;% include head.html %}
+        &lt;body>                                
+          &lbrace;% include header.html %}   
           
+          &lbrace;&lbrace; content }}     
+          
+          &lbrace;% include head.html %}           
+        &lt;/body>  
+      &lt;/html>     
+      
+          ###
+          ###  &lbrace;% include file.html %}
+          ###  is replaced by content
+          ###  from the files in the
+          ###  _includes folder
+          ###  
+
+</code>
+</pre>
+</blockquote>
+  
+  
 </footer>
 
 
@@ -17,9 +49,9 @@
 
 footer {
   color:white;
-  height: 200px;
+  height: 500px;
   background-color: #696969;
-  padding-top: 80px;
+  padding-top: 50px;
   font-family: Verdana,sans-serif;
   font-size: 15px;
   line-height: 1.65;
@@ -34,6 +66,15 @@ footer a {
 footer ul {
   list-style: inside;
   text-align:left;
+}
+
+  pre{
+  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #eee;
+  width: 750px!ie7;
+  padding-bottom: 20px!ie7;
 }
   
 </style>
