@@ -9,7 +9,9 @@ title: 'Nice Layout'
 ![]({{site.url}}/assets/img/hey-world.png)  
 
 
-<button onclick="href='https://github.com/DS4PS/barebones-jekyll/blob/master/_layouts/nice-text.html'">See Page Layout</button>
+<a href="href='https://github.com/DS4PS/barebones-jekyll/blob/master/_layouts/nice-text.html" target = "_blank"> 
+<button onclick="href=''"> See Page Layout <i class="fa fa-github 2x" id="github_icon"> </button>
+</a>
 
 
 ## Lorem Ipsum
