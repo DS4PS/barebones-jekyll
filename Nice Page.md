@@ -1,5 +1,5 @@
 ---
-layout: layout-01
+layout: format-text
 title: 'My Page'
 ---
 
