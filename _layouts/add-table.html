@@ -90,24 +90,87 @@ layout: format-text
 <pre>
 <code>
 
-### LAYOUT INHERITANCE
 ###
-### pages built by adding elements 
-### to other page layouts 
+###  LAYOUT INHERITANCE
+###
+###  pages built by adding elements 
+###  to other page layouts 
+###
 
-default.html layout 
-│
-└── format-text.html layout 
-    │
-    └── add-table.html layout
+      default.html layout 
+      │
+      └── format-text.html layout 
+          │
+          └── add-table.html layout
+              # see liquid table below
+
+
+
+      ###
+      ### default.html
+      ###
+      ### include name.html adds 
+      ### components from _includes folder
+      ###
+      
+      &lt;!DOCTYPE html>
+      &lt;html lang="en">
+      &lbrace;% include head.html %}
+      &lt;body>                                
+      &lbrace;% include header.html %}        
+      &lbrace;&lbrace; content }}                      
+      &lbrace;% include footer.html %}           
+      &lt;/body>                               
+      &lt;/html>     
+      
+      
+      
+      ###
+      ### format-text.html
+      ###
+      
+      ---
+      layout: default
+      ---
+
+      &lt;div class="pretty-text">
+
+      &lt;h1> &lbrace;&lbrace; page.title }} &lt;/h1>
+
+      &lbrace;&lbrace; content }}
+
+      &lt;/div>
+      
+      
+      ###
+      ### add-table.html
+      ###
+      
+      ---
+      layout: format-text
+      ---
+
+      &lbrace;&lbrace; content }}
+
+      #  liquid table starts here
+      
+
+
 
 
 ###
 ###  LIQUID TABLE ADDED USING YAML DATA
 ###
+###  liquid is a simple markup language that allows
+###  web designers to separate page layouts from
+###  page content without databases
+###
+###  &lbrace;%  function in liquid  %}
+###  &lbrace;&lbrace;  variable in liquid  }}
+###
 
 
-    ### YAML HEADER FOR PAGE
+    ###  YAML HEADER FOR PAGE
 
     ---
     layout: add-table
@@ -132,7 +195,7 @@ default.html layout
       - not ryan reynolds
     ---
 
-    # LIQUID TAG TABLE IN LAYOUT
+   ###  LIQUID TAG TABLE IN LAYOUT
 
     &lt;h2> Ryan vs Ryan &lt;/h2>
 
@@ -151,6 +214,13 @@ default.html layout
         &lt;h4>  Strengths  &lt;/h4>
         &lt;ul>
         
+          ###  LIQUID LOOPS WITH YAML DATA
+          ###  reynolds:
+          ###    strengths:
+          ###    - good father
+          ###    - funny
+          ###    - dated alanis morissette
+          
           &lbrace;% for item in page.reynolds.strengths %}
              &lt;li>  &lbrace;&lbrace; item }}  &lt;/li>
           &lbrace;% endfor %}
