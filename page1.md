@@ -1,6 +1,6 @@
 ---
 layout: format-text
-title: 'Nicer Layout'
+title: 'Nice Layout'
 ---
 
 
@@ -19,7 +19,22 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <pre>
 <code>
 
-# CREATE A DIV FOR PRETTY-TEXT
+###
+###  YAML HEADER FOR PAGE
+###  
+###  ---
+###  layout: format-text
+###  title: 'Nice Layout'
+###  ---
+###
+
+
+### 
+###  CREATE A DIV FOR PRETTY-TEXT
+###
+###  div limits formatting only to
+###  text between the div tags
+###
 
 &lt;div class="pretty-text">
 
@@ -30,8 +45,20 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 &lt;/div>
 
 
-
-# ADD THESE TO STYLE SHEET
+###
+###  ADD THESE ELEMENTS TO CSS STYLE SHEET
+###
+###  CSS RULES:
+###
+###  body &lbrace;...}  applies to everything in body
+###  body p &lbrace;...}  only paragraphs in body
+###  
+###  .pretty-text &lbrace;...} references a class
+###  &lt;div class="pretty-text">
+###
+###  #ryan &lbrace;...} references an id
+###  &lt;div id="ryan">
+###
 
 &lt;style>
 
