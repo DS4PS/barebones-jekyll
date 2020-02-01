@@ -1,0 +1,126 @@
+<header>
+<div "navbar">
+
+    <div class="navbar-left">
+          <b><a id="site-title" href="index">{{ site.title }}</a></b><br>
+    </div>
+    
+    <div class="navbar-right">
+
+    <ul>
+
+    {% for link in site.header %}
+    
+        {% if link.url contains 'http' %}
+           {% assign domain = '' %}
+        {% else %}
+           {% assign domain = site.url %}
+        {% endif %}
+        
+        {% if link.url == page.url %}
+           {% assign current = 'class="active"' %}
+        {% else %}
+           {% assign current = null %}
+        {% endif %}
+        
+        {% if link.title %}
+                        
+           {% if link.url contains 'http' %} 
+                 <li{{ current }}>
+                    <a href="{{ link.url }}" id="list"  target="_blank"; style="color: black;">{{ link.title }}</a> 
+                 </li>
+           {% else %} 
+                 <li{{ current }}>
+                    <a href="{{ domain }}/{{ site.github_info.website-repo }}/{{ link.url }}" id="list" style="color: black;">{{ link.title }}</a> 
+                 </li>
+           {% endif %}
+           
+        {% endif %}
+        
+     {% endfor %}
+     
+        <li>
+           <a href="https://github.com/{{ site.github_info.username }}/{{ site.github_info.reponame }}/edit/master/{{page.path}}" target = "_blank"> 
+           <i class="fa fa-github x2" id="github_icon"></i></a>
+        </li>
+
+     </ul>
+
+     </div>
+     
+</div>
+</header>
+
+
+
+
+
+<!-- IN _config.yml FILE:  
+
+  header:
+  - title: Home
+    url: 
+  - title: Layout Example
+    url: nice-text
+  - title: Table Example
+    url: nice-table
+  - title: External Link
+    url: http://bitly.com/98K8eH
+
+-->
+
+<!--    LIQUID TAGS AS R CODE
+
+  title <- c("Home","Page1","Page2")
+  url <- c("index","resources","www.outside-link.html")
+
+  header <- data.frame( title, url )
+
+  baseurl <- "www.baseurl.com"
+
+  for( i in nrow( header ) )
+  {
+    if( header$url[i] contains 'http' )
+    { domain <- "" }
+    else{ domain <- paste( baseurl, "/", header$url[i] )
+
+    etc
+
+  }
+
+-->
+
+
+
+
+
+<!-- margin: top right bottom left -->
+
+<style>
+  
+header { 
+  background-color: black; 
+  height: 60px;
+  padding: 40px 0px 0px 20px;
+} 
+  
+#site-title {
+  font-size: 120%;
+  text-transform: uppercase;
+  margin: 0px 30px 0px 0px;
+}
+  
+.navbar a {
+  color: white;
+  margin: 0px 15px 0px 0px;
+  font-family: Verdana,sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  line-height: 1.65;
+}
+  
+.navbar i {
+  color: white;
+}
+  
+</style>
