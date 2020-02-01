@@ -1,13 +1,16 @@
-/*   -------------------------------------------------   */
-/*   Note that this css is not currently applies         */
-/*   because these style elements are embedded in the    */
-/*   individual pages that they affect so that you       */
-/*   can see exactly what is changing each page.         */
-/*                                                       */
-/*   This is not best practice! Use the CSS!             */
-/*   (done this way for pedagogy only)                   */
-/*                                                       */
-/*   -------------------------------------------------   */
+/*  ---------------------------------------------------   */
+/*                                                        */
+/*    Note that this css is not currently applied         */
+/*    because these style elements are embedded in the    */
+/*    individual pages that they affect so that you       */
+/*    can see exactly which styles are acticve.           */
+/*                                                        */
+/*    This is not best practice! Use the CSS !            */
+/*    (done this way for pedagogy only)                   */
+/*                                                        */
+/*    This page is what a typical CSS looks like          */
+/*                                                        */
+/*  ---------------------------------------------------   */
 
 
 
@@ -23,6 +26,8 @@ body {
  padding-right: 10px;
  background-color: oldlace;
 }
+
+
 
 
 /*   HEADER AND NAVIGATION BAR   */
