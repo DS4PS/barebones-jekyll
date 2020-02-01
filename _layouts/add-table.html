@@ -1,0 +1,60 @@
+---
+layout: nice-text
+---
+  
+{{ content }}
+
+
+
+
+<h2> Ryan vs Ryan </h2>
+
+<table id="index" class="table table-condensed" cellspacing="10">
+
+<thead>
+  <tr>
+    <th>  <h3>Ryan Reynolds</h3>  </th>
+    <th>  <h3>Ryan Goslings</h3>  </th>
+  </tr>
+</thead>
+
+<tbody>
+
+<tr>
+  <td>
+  
+    <h4>Strengths</h4>
+    <ul>
+      {% for item in page.reynolds.strengths %}
+      <li>{{item.reynolds.strengths}}</li>
+    </ul>
+
+    <h4>Weaknessess</h4>
+    <ul>
+      {% for item in page.reynolds.weaknesses %}
+      <li>{{item.reynolds.weaknesses}}</li>
+    </ul>
+
+  <td>
+<tr>  
+
+<tr>
+  <td>
+  
+    <h4>Strengths</h4>
+    <ul>
+      {% for item in page.gosling.strengths %}
+      <li>{{item.gosling.strengths}}</li>
+    </ul>
+
+    <h4>Weaknessess</h4>
+    <ul>
+      {% for item in page.gosling.weaknesses %}
+      <li>{{item.gosling.weaknesses}}</li>
+    </ul>
+
+  <td>
+<tr> 
+
+
+
