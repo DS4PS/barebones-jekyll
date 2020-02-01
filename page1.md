@@ -60,49 +60,51 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
           ###  &lt;div id="ryan">
           ###
 
-                    &lt;style>
 
-                    .pretty-text {
-                      margin-top: 100px;
-                      margin-bottom: 100px;
-                      padding-left: 30px;
-                      padding-right: 30px;
-                      text-align: justify;
-                    }
 
-                    .pretty-text p {
-                      line-height: 1.8
-                      }
+          &lt;style>
 
-                    .pretty-text h1 {
-                      color: darkred;
-                      font-size: 40px;
-                    }
+          .pretty-text {
+            margin-top: 100px;
+            margin-bottom: 100px;
+            padding-left: 30px;
+            padding-right: 30px;
+            text-align: justify;
+          }
 
-                    .pretty-text h2 {
-                      color: darkred;
-                      font-size: 30px;
-                      margin-top: 60px;
-                    }
+          .pretty-text p {
+            line-height: 1.8
+            }
 
-                    .pretty-text img {
-                      border: 1px solid #ddd;
-                      border-radius: 8px;
-                      padding: 5px;
-                      width: 400px;
-                      display: block;
-                      margin-left: auto;
-                      margin-right: auto;
-                      width: 50%;
-                      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
-                                  0 6px 20px 0 rgba(0, 0, 0, 0.19);
-                    }
+          .pretty-text h1 {
+            color: darkred;
+            font-size: 40px;
+          }
 
-                    .pretty-text img:hover {
-                      box-shadow: 0 0 3px 1px rgba(0, 140, 186, 0.5);
-                    }
+          .pretty-text h2 {
+            color: darkred;
+            font-size: 30px;
+            margin-top: 60px;
+          }
 
-                    &lt;/style>
+          .pretty-text img {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 5px;
+            width: 400px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          }
+
+          .pretty-text img:hover {
+            box-shadow: 0 0 3px 1px rgba(0, 140, 186, 0.5);
+          }
+
+          &lt;/style>
 
 </code>
 </pre>
