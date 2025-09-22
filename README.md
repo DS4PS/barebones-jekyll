@@ -6,7 +6,7 @@ A barebones website template for students to fork while learning how to build a 
 ## Will teach you how to use themes like these:
 
 * [contrast](https://github.com/niklasbuschmann/contrast)
-* [polar bear theme] (https://github.com/diezcami/polar-bear-theme)
+* [polar bear theme](https://github.com/diezcami/polar-bear-theme)
 * [lanyon](http://lanyon.getpoole.com/)
 
 # your minimal site:
@@ -26,7 +26,19 @@ site
     ├── header.html  
     ├── navbar.html  
     └── footer.html  
-``` 
+```
+
+The **_includes** folder contains **website assets**, HTML code that provides the basic structure for each component of a page. 
+
+<img width="700" height="531" alt="image" src="https://github.com/user-attachments/assets/c5780a7a-eef7-44d5-81ad-a348072b3ccf" />
+
+The **_layouts** folder contains the HTML/jekyll template for different types of website pages. Some common page templates across sites are:
+
+- landing page or index
+- content page
+- about page
+- gallery page for products or images
+- contents page for a blog site or periodical
   
 ## index.md
 
